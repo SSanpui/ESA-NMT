@@ -1,0 +1,16 @@
+{
+  "mode": "quick_demo",
+  "translation_pair": "bn-hi",
+  "model_type": "nllb",
+  "metrics": {
+    "bleu": 33.7644000988576,
+    "chrf": 51.838318378834,
+    "rouge_l": 0.5814905814905814,
+    "meteor": 50.048299005660176,
+    "emotion_accuracy": 73.78378378378379,
+    "semantic_score": 0.9204277992248535,
+    "avg_loss": 0.09481155207124367,
+    "num_samples": 4070
+  },
+  "train_loss": 1.127742963032136
+}
