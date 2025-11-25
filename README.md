@@ -370,7 +370,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Contact
 
-- **Author**: Sudeshna Sanpui
+- **Author**: Sudeshna Sani
 - **GitHub**: [@SSanpui](https://github.com/SSanpui)
 - **Dataset**: [SSanpui/BHT25](https://huggingface.co/datasets/SSanpui/BHT25)
 - **Issues**: [GitHub Issues](https://github.com/SSanpui/ESA-NMT/issues)
