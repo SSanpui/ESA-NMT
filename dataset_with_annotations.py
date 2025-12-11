@@ -47,7 +47,8 @@ class BHT25AnnotatedDataset(Dataset):
         print(f"Columns: {df.columns.tolist()}")
 
         # Check required columns
-        required_cols = ['bn', 'hi', 'te', 'emotion_bn', 'semantic_bn_hi', 'semantic_bn_te']
+        #required_cols = ['bn', 'hi', 'te', 'emotion_bn', 'semantic_bn_hi', 'semantic_bn_te']
+        required_cols = ['bn', 'hi', 'te', 'emotion_hi', 'semantic_bn_hi', 'semantic_bn_te', 'semantic_hi_te']
         for col in required_cols:
             if col not in df.columns:
                 raise ValueError(f"Missing column: {col}. Please re-run annotation script.")
@@ -80,6 +81,8 @@ class BHT25AnnotatedDataset(Dataset):
                 semantic_score = float(row['semantic_bn_hi'])
             elif self.translation_pair == 'bn-te':
                 semantic_score = float(row['semantic_bn_te'])
+            elif
+                semantic_score = float(row['semantic_hi_te'])
             else:
                 semantic_score = 0.85  # Fallback
 
