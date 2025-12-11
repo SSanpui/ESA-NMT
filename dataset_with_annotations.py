@@ -81,7 +81,7 @@ class BHT25AnnotatedDataset(Dataset):
                 semantic_score = float(row['semantic_bn_hi'])
             elif self.translation_pair == 'bn-te':
                 semantic_score = float(row['semantic_bn_te'])
-            elif
+            elif self.translation_pair == 'hi-te':
                 semantic_score = float(row['semantic_hi_te'])
             else:
                 semantic_score = 0.85  # Fallback
