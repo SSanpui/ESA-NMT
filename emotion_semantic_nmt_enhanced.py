@@ -135,6 +135,7 @@ class Config:
     TRANSLATION_PAIRS = {
         'bn-hi': ('bn', 'hi'),
         'bn-te': ('bn', 'te'),
+        'hi-te': ('hi', 'te'),
     }
 
     # Language codes
