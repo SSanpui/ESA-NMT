@@ -1,0 +1,15 @@
+{
+  "pair": "hi-te",
+  "model": "facebook/m2m100_418M",
+  "src_lang": "hi",
+  "tgt_lang": "te",
+  "num_samples": 2000,
+  "metrics": {
+    "BLEU": 0.0,
+    "chrF": 0.0,
+    "METEOR": 0.0,
+    "ROUGE-L": 0.0,
+    "Semantic": NaN
+  },
+  "timestamp": "2025-12-12T07:40:54.163537"
+}

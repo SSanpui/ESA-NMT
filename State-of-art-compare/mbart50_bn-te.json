@@ -1,0 +1,15 @@
+{
+  "pair": "bn-te",
+  "model": "facebook/mbart-large-50-many-to-many-mmt",
+  "src_lang": "bn_IN",
+  "tgt_lang": "te_IN",
+  "num_samples": 2000,
+  "metrics": {
+    "BLEU": 0.77,
+    "chrF": 7.98,
+    "METEOR": 0.0,
+    "ROUGE-L": 0.003,
+    "Semantic": 0.6152999997138977
+  },
+  "timestamp": "2025-12-12T07:25:13.210485"
+}

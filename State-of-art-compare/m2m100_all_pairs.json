@@ -1,0 +1,47 @@
+{
+  "bn-hi": {
+    "pair": "bn-hi",
+    "model": "facebook/m2m100_418M",
+    "src_lang": "bn",
+    "tgt_lang": "hi",
+    "num_samples": 2000,
+    "metrics": {
+      "BLEU": 27.57,
+      "chrF": 50.64,
+      "METEOR": 0.0,
+      "ROUGE-L": 0.0065,
+      "Semantic": 0.9103
+    },
+    "timestamp": "2025-12-12T07:39:55.108305"
+  },
+  "bn-te": {
+    "pair": "bn-te",
+    "model": "facebook/m2m100_418M",
+    "src_lang": "bn",
+    "tgt_lang": "te",
+    "num_samples": 2000,
+    "metrics": {
+      "BLEU": 0.0,
+      "chrF": 0.0,
+      "METEOR": 0.0,
+      "ROUGE-L": 0.0,
+      "Semantic": NaN
+    },
+    "timestamp": "2025-12-12T07:40:22.885011"
+  },
+  "hi-te": {
+    "pair": "hi-te",
+    "model": "facebook/m2m100_418M",
+    "src_lang": "hi",
+    "tgt_lang": "te",
+    "num_samples": 2000,
+    "metrics": {
+      "BLEU": 0.0,
+      "chrF": 0.0,
+      "METEOR": 0.0,
+      "ROUGE-L": 0.0,
+      "Semantic": NaN
+    },
+    "timestamp": "2025-12-12T07:40:54.163537"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "bn-hi": {
+    "pair": "bn-hi",
+    "model": "facebook/mbart-large-50-many-to-many-mmt",
+    "src_lang": "bn_IN",
+    "tgt_lang": "hi_IN",
+    "num_samples": 2000,
+    "metrics": {
+      "BLEU": 4.34,
+      "chrF": 14.04,
+      "METEOR": 0.0,
+      "ROUGE-L": 0.0027,
+      "Semantic": 0.7010999917984009
+    },
+    "timestamp": "2025-12-12T07:22:06.554982"
+  },
+  "bn-te": {
+    "pair": "bn-te",
+    "model": "facebook/mbart-large-50-many-to-many-mmt",
+    "src_lang": "bn_IN",
+    "tgt_lang": "te_IN",
+    "num_samples": 2000,
+    "metrics": {
+      "BLEU": 0.77,
+      "chrF": 7.98,
+      "METEOR": 0.0,
+      "ROUGE-L": 0.003,
+      "Semantic": 0.6152999997138977
+    },
+    "timestamp": "2025-12-12T07:25:13.210485"
+  },
+  "hi-te": {
+    "pair": "hi-te",
+    "model": "facebook/mbart-large-50-many-to-many-mmt",
+    "src_lang": "hi_IN",
+    "tgt_lang": "te_IN",
+    "num_samples": 2000,
+    "metrics": {
+      "BLEU": 1.66,
+      "chrF": 10.82,
+      "METEOR": 0.0,
+      "ROUGE-L": 0.0037,
+      "Semantic": 0.7901999950408936
+    },
+    "timestamp": "2025-12-12T07:28:16.263079"
+  }
+}
